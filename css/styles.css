@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#intro {
+  background-image: url(../images/wall-pic-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fixingPosition {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.rightSide {
+  width: 60%;
+  background: grey;
+  color: white;
+  mix-blend-mode: multiply;
+  padding: 3%;
+  font-size: 90px;
+}
+
+.fixingPositionLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+  color: black;
+  font-weight: bold;
+  /* color: white; */
+  text-align: left;
+  top: 50px;
+  left: 50px;
+}
+
+.leftSide {
+  
+}
